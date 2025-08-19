@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Roxin - Personal projects, robotics, Python skills by Affan, founder and owner">
+    <meta name="keywords" content="Roxin, Affan, Python, robotics, web development, projects">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roxin - Affan's Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #f4f7fa, #e6eef7);
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        nav {
+            background: #1a252f;
+            text-align: center;
+            padding: 0.8rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+            transform: scale(1.1);
+        }
+
+        section {
+            padding: 3rem 2rem;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            margin-top: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-left: 6px solid #f39c12;
+            padding-left: 10px;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background: #ecf0f1;
+            margin: 0.5rem 0;
+            padding: 0.8rem;
+            border-radius: 6px;
+            transition: transform 0.3s;
+        }
+
+        ul li:hover {
+            transform: translateX(5px);
+            background: #dce6f1;
+        }
+
+        ul li a {
+            color: #2c3e50;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            color: #f39c12;
+        }
+
+        .cta {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: white;
+            padding: 1.2rem;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 1.5rem;
+            font-weight: bold;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+
+        .cta a {
+            color: white;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Roxin</h1>
+        <p>By Affan - Owner & Founder</p>
+    </header>
+
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#join">Join Roxin</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li><a href="https://pastebin.com/">Python Calculator</a></li>
+            <li><a href="https://pastebin.com/kHAaJad3">Weight Converter</a></li>
+            <li>HTML Shopping Site (demo)</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is <strong>Affan</strong>. I love coding, robotics, and building websites.  
+        I am also the <strong>Owner & Founder of Roxin</strong>, where I dream of creating innovative robotics and AI projects.</p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Python (Basic Programs, Chatbots, Calculators)</li>
+            <li>HTML (Websites, Portfolio)</li>
+            <li>Robotics (Arduino, Electronics Basics)</li>
+            <li>Problem Solving & Creativity</li>
+        </ul>
+    </section>
+
+    <section id="join">
+        <h2>Join My Project: Roxin</h2>
+        <p>
+            Roxin is my personal project where I want to build something big with Python and robotics ideas.  
+            I am looking for volunteers around the world who are interested in contributing.  
+        </p>
+        <p><strong>Requirements:</strong></p>
+        <ul>
+            <li>Basic knowledge of Python</li>
+            <li>Interest in Robotics or AI</li>
+            <li>Willingness to learn and work as a team</li>
+        </ul>
+        <div class="cta">
+            👉 Want to join Roxin? Contact me at <a href="mailto:affan@example.com">affan@example.com</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you’d like to reach me, send me an email at: <a href="mailto:affanpisk@gmail.com">affanpisk@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Roxin | Created by Affan - Owner & Founder</p>
+    </footer>
+
+</body>
+</html>
